@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     private Animator myAnim;
 
     [SerializeField]
-    private int MoveSpeed ;
+    private float MoveSpeed ;
 
 
     // Start is called before the first frame update
