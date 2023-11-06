@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //CONTROLER
-        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * MoveSpeed * 5 * Time.deltaTime;
+        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"))* MoveSpeed * 5 * Time.deltaTime;
 
         //SETING ANIMASI KANAN KIRI
         myAnim.SetFloat("MoveX", rb.velocity.x);

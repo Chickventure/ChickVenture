@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Coin
+  - coin
+  - jagung
   layers:
   - Default
   - TransparentFX
@@ -41,4 +44,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Kayu
+    uniqueID: 2371101061
+    locked: 0
+  - name: Kaleng
+    uniqueID: 3741293467
+    locked: 0
+  - name: Pakan
+    uniqueID: 3748862119
+    locked: 0
+  - name: Ground
+    uniqueID: 3488540005
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 4237079911
     locked: 0
