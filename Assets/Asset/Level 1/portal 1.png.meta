@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d22dd704c9529834f9cf010b801e754a
+guid: 91001e8b69355614da0a7b3943729027
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,91 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: tilemap lvl 2_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 266
-        width: 253
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fcd4ad1db10b1b4bb5f05b86b79a115
-      internalID: 576886579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap lvl 2_1
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 267
-        width: 253
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1af3214f85ff8dc4d94fe38323fbe23f
-      internalID: 2032470606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap lvl 2_2
-      rect:
-        serializedVersion: 2
-        x: 531
-        y: 266
-        width: 253
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d027c27d88d6de44a3143411e7f204e
-      internalID: 7593276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tilemap lvl 2_3
-      rect:
-        serializedVersion: 2
-        x: 531
-        y: 1
-        width: 253
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7a0d825659489c448ca4c4185caf2e8
-      internalID: -1159939064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -216,11 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      tilemap lvl 2_0: 576886579
-      tilemap lvl 2_1: 2032470606
-      tilemap lvl 2_2: 7593276
-      tilemap lvl 2_3: -1159939064
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

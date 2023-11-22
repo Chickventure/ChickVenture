@@ -42,13 +42,13 @@ public class Slot : MonoBehaviour
         if (amount > 1)
         {
             amount -= 1;
-            //transform.GetComponentInChildren<Spawn>().SpawnDropItem();
+            transform.GetComponentInChildren<Spawn>().SpawnDropItem();
         }
         else
         {
             amount -= 1;
-            //GameObject.Destroy( transform.GetComponentInChildren<Spawn>().gameObject);
-            //transform.GetComponentInChildren<Spawn>().SpawnDropItem();
+            GameObject.Destroy(transform.GetComponentInChildren<Spawn>().gameObject);
+            transform.GetComponentInChildren<Spawn>().SpawnDropItem();
         }
 
     }

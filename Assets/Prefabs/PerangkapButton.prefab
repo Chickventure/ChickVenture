@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6611736047391519951
+--- !u!1 &579908532299122949
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1180349031739433666}
-  - component: {fileID: 1983512050169051843}
-  - component: {fileID: 69333941904922665}
-  - component: {fileID: 4827661676137485495}
-  - component: {fileID: 704272547101639878}
+  - component: {fileID: 7038750260953349638}
+  - component: {fileID: 1506514427384398435}
+  - component: {fileID: 8563005264382471675}
+  - component: {fileID: 3407757865386445008}
+  - component: {fileID: 8726649786960561572}
   m_Layer: 5
   m_Name: PerangkapButton
   m_TagString: Untagged
@@ -20,13 +20,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1180349031739433666
+--- !u!224 &7038750260953349638
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6611736047391519951}
+  m_GameObject: {fileID: 579908532299122949}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -39,21 +39,21 @@ RectTransform:
   m_AnchoredPosition: {x: -352.7, y: 1}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1983512050169051843
+--- !u!222 &1506514427384398435
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6611736047391519951}
+  m_GameObject: {fileID: 579908532299122949}
   m_CullTransparentMesh: 1
---- !u!114 &69333941904922665
+--- !u!114 &8563005264382471675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6611736047391519951}
+  m_GameObject: {fileID: 579908532299122949}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cefe89f2ff623e544bcc8fa354a86530, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 15533bff232cbae49b5a9dcc32b00cec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -77,13 +77,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4827661676137485495
+--- !u!114 &3407757865386445008
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6611736047391519951}
+  m_GameObject: {fileID: 579908532299122949}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -117,22 +117,22 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 69333941904922665}
+  m_TargetGraphic: {fileID: 8563005264382471675}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &704272547101639878
+--- !u!114 &8726649786960561572
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6611736047391519951}
+  m_GameObject: {fileID: 579908532299122949}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11eee0aeb187bc54789f7a644b44bdee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemPerfabs: {fileID: 7636382509277345280, guid: f9e3260970b307342a5762e5e445a6c5, type: 3}
+  ItemPerfabs: {fileID: 3754314782231305383, guid: d3d17333097940643bae8acbf1d4d49d, type: 3}
   player: {fileID: 0}
-  itemName: PERANGKAP
+  itemName: Perangkap
