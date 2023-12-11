@@ -24,11 +24,11 @@ public class Slot : MonoBehaviour
 
         if (amount > 1)
         {
-            transform.GetChild(0).GetComponent<TextMeshProUGUI>().enabled = true;
+            amountText.enabled = true;
         }
         else
         {
-            transform.GetChild(0).GetComponent<TextMeshProUGUI>().enabled = false;
+            amountText.enabled = false;
         }
 
         if(transform.childCount == 10)

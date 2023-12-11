@@ -1101,8 +1101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!212 &278984990
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2180,8 +2178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 1
-  textkoin: {fileID: 0}
 --- !u!111 &549852465
 Animation:
   m_ObjectHideFlags: 0
@@ -2231,6 +2227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 200
+  nilaiKoin: 0
+  textkoin: {fileID: 637868954}
 --- !u!50 &549852468
 Rigidbody2D:
   serializedVersion: 4
@@ -4799,8 +4797,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!212 &1058431599
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4899,8 +4895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!58 &1089164782
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6249,8 +6243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!58 &1336671992
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6720,8 +6712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!58 &1433779648
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6942,8 +6932,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!1 &1458877440
 GameObject:
   m_ObjectHideFlags: 0
@@ -7270,8 +7258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 0}
 --- !u!58 &1490331190
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8468,8 +8454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!58 &1667441325
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9554,8 +9538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!212 &1789722586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10127,8 +10109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: 0
-  textkoin: {fileID: 637868954}
 --- !u!58 &1869222298
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10262,8 +10242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02d183d30a651bc44a1f2cdd0b0d37c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nilaiKoin: -1
-  textkoin: {fileID: 0}
 --- !u!58 &1870800811
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -23,26 +23,26 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 point = currentPoint.position - transform.position;
-        if(currentPoint == PointB.transform)
-        {
-            rb.velocity = new Vector3(0, speed,0);
-        }
-        else
-        {
-            rb.velocity = new Vector3(0, -speed,0);
-        }
+        //Vector2 point = currentPoint.position - transform.position;
+        //if (currentPoint == PointB.transform)
+        //{
+        //    rb.velocity = new Vector3(0, speed, 0);
+        //}
+        //else
+        //{
+        //    rb.velocity = new Vector3(0, -speed, 0);
+        //}
 
-        if(Vector3.Distance(transform.position, currentPoint.position)<0.5f && currentPoint == PointB.transform)
-        {
-            flip();
-            currentPoint = PointB.transform;
-        }
-        if (Vector3.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == PointA.transform)
-        {
-            flip();
-            currentPoint = PointA.transform;
-        }
+        //if (Vector3.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == PointB.transform)
+        //{
+        //    flip();
+        //    currentPoint = PointB.transform;
+        //}
+        //if (Vector3.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == PointA.transform)
+        //{
+        //    flip();
+        //    currentPoint = PointA.transform;
+        //}
     }
 
     private void flip()
@@ -52,10 +52,10 @@ public class Enemy : MonoBehaviour
         transform.localScale = LocalScale;
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireSphere(PointA.transform.position, 0.5f);
-        Gizmos.DrawWireSphere(PointB.transform.position, 0.5f);
-        Gizmos.DrawLine(PointA.transform.position, PointB.transform.position);
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.DrawWireSphere(PointA.transform.position, 0.5f);
+    //    Gizmos.DrawWireSphere(PointB.transform.position, 0.5f);
+    //    Gizmos.DrawLine(PointA.transform.position, PointB.transform.position);
+    //}
 }

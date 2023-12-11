@@ -6,16 +6,12 @@ using UnityEngine.UI;
 public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int nilaiKoin;
-    public Text textkoin;
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        void Start()
-        {
-            textkoin.text = "= " + nilaiKoin.ToString();
-        }
+       
 
         if (collision.gameObject.tag == "Player")
         {
@@ -24,12 +20,18 @@ public class Coin : MonoBehaviour
         }
         if (collision.gameObject.tag == "coin")
         {
-            nilaiKoin += 1;
-            textkoin.text = " " + nilaiKoin.ToString();
-
+            PlayerController.instance.nilaiKoin += 1;
+            PlayerController.instance.textkoin.text = " " + PlayerController.instance.nilaiKoin.ToString();
+            PlayerPrefs.SetInt("coin", PlayerController.instance.nilaiKoin);
         }
   
         
     }
+    void Start()
+    {
+        PlayerController.instance.nilaiKoin = PlayerPrefs.GetInt("coin");
+        PlayerController.instance.textkoin.text = "= " + PlayerController.instance.nilaiKoin.ToString();
+        Debug.Log(PlayerController.instance.nilaiKoin);
+        }
 
 }

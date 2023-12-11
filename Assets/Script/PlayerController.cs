@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +11,14 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private int MoveSpeed;
+
+    public int nilaiKoin;
+    public Text textkoin;
+    public static PlayerController instance;
+    private void Awake()
+    {
+        instance = this; 
+    }
 
 
 
@@ -19,8 +29,21 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         //Memanggil Animasi Gerak
         myAnim = GetComponent<Animator>();
+
+        nilaiKoin = PlayerPrefs.GetInt("coin");
+        textkoin.text = "= " + nilaiKoin.ToString();
+        Debug.Log(nilaiKoin);
+
+        if(SceneManager.GetActiveScene().name == "Level 1")
+        {
+            Resetsave();
+        }
     }
 
+    public void Resetsave()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     // Update is called once per frame
     void Update()
     {
