@@ -27,11 +27,5 @@ public class Coin : MonoBehaviour
   
         
     }
-    void Start()
-    {
-        PlayerController.instance.nilaiKoin = PlayerPrefs.GetInt("coin");
-        PlayerController.instance.textkoin.text = "= " + PlayerController.instance.nilaiKoin.ToString();
-        Debug.Log(PlayerController.instance.nilaiKoin);
-        }
 
 }

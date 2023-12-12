@@ -12,13 +12,13 @@ public class Enemy : MonoBehaviour
     public float speed;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        currentPoint = PointB.transform;
-        anim.SetBool("isRunning", false);
-    }
+    //void Start()
+    //{
+    //    rb = GetComponent<Rigidbody2D>();
+    //    anim = GetComponent<Animator>();
+    //    currentPoint = PointB.transform;
+    //    anim.SetBool("isRunning", false);
+    //}
 
     // Update is called once per frame
     void Update()
