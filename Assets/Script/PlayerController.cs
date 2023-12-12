@@ -40,6 +40,8 @@ public class PlayerController : MonoBehaviour
         {
             Resetsave();
         }
+
+
     }
 
     public void Resetsave()
