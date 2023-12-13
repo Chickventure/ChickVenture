@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
         TextJagung.text = "" + nilaiJagung.ToString();
 
         //save scene
-        if (SceneManager.GetActiveScene().name == "Main Menu")
+        if (SceneManager.GetActiveScene().name == "Level 1")
         {
             Resetsave();
         }
