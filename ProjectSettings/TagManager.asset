@@ -9,6 +9,9 @@ TagManager:
   - coin
   - jagung
   - Event
+  - Peanuts
+  - Perangkap
+  - Jagung
   layers:
   - Default
   - TransparentFX

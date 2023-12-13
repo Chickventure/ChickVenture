@@ -20,21 +20,21 @@ public class Slot : MonoBehaviour
     void Update()
     {
         
-        amountText.text = amount.ToString();
+        //amountText.text = amount.ToString();
 
-        if (amount > 1)
-        {
-            amountText.enabled = true;
-        }
-        else
-        {
-            amountText.enabled = false;
-        }
+        //if (amount > 1)
+        //{
+        //    amountText.enabled = true;
+        //}
+        //else
+        //{
+        //    amountText.enabled = false;
+        //}
 
-        if(transform.childCount == 10)
-        {
-            inventory.isFull[i] = false;
-        }
+        //if(transform.childCount == 10)
+        //{
+        //    inventory.isFull[i] = false;
+        //}
     }
 
     public void DropItem() 
