@@ -12,6 +12,7 @@ TagManager:
   - Peanuts
   - Perangkap
   - Jagung
+  - Enemy
   layers:
   - Default
   - TransparentFX
