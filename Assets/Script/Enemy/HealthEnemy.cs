@@ -1,27 +1,22 @@
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HealthEnemy : MonoBehaviour
 {
     [SerializeField]
-    private float StarttingHealht;
+    private float StarttinghealhtEnemy;
     public float currentHealth { get; private set; }
-    private Animator anim;
 
     private void Awake()
     {
-        currentHealth = StarttingHealht;
-        anim = GetComponent<Animator>();
+        currentHealth = StarttinghealhtEnemy;
     }
 
     public void TakeDamage(float damage)
     {
-        currentHealth = Mathf.Clamp(currentHealth - damage, 0, StarttingHealht);
-        if (currentHealth > 0)
-        {
-            anim.SetTrigger("enemy");
-        }
-        else
+        currentHealth = Mathf.Clamp(currentHealth - damage, 0, StarttinghealhtEnemy);
+        if (currentHealth < 0)
         {
             Destroy(gameObject);
         }
