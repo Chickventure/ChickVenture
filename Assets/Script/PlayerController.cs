@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -16,14 +16,17 @@ public class PlayerController : MonoBehaviour
     public int nilaiKoin, nilaiPeanuts, nilaiPerangkap, nilaiJagung;
     public Text textkoin, TextPeanuts, TextPerangkap, TextJagung;
     public static PlayerController instance, instance1, instance2, instance3;
-    
+
+
     private void Awake()
     {
-        instance = this; 
+        instance = this;
         instance1 = this;
         instance2 = this;
         instance3 = this;
     }
+
+
 
 
     // Start is called before the first frame update
@@ -85,3 +88,4 @@ public class PlayerController : MonoBehaviour
 
 
 }
+
