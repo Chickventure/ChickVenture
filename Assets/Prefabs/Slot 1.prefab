@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 3623473752778041165}
   - component: {fileID: 5966380485653056625}
   m_Layer: 5
-  m_Name: Text Peanuts
+  m_Name: Text Perangkap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

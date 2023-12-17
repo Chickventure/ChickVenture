@@ -19,7 +19,7 @@ public class Slot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         //amountText.text = amount.ToString();
 
         //if (amount > 1)
@@ -35,6 +35,26 @@ public class Slot : MonoBehaviour
         //{
         //    inventory.isFull[i] = false;
         //}
+
+
+        //amountText.text = amount.ToString();
+
+        //if (amount > 1)
+        //{
+        //    transform.GetChild(0).GetComponent<TextMeshProUGUI>().enabled = true;
+        //    amountText.enabled = true;
+        //}
+        //else
+        //{
+        //    transform.GetChild(0).GetComponent<TextMeshProUGUI>().enabled = false;
+        //    amountText.enabled = false;
+        //}
+
+        //if (transform.childCount == 10)
+        //{
+        //    inventory.isFull[i] = false;
+        //}
+
     }
 
     public void DropItem() 

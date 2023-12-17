@@ -44,9 +44,22 @@ public class PlayerController : MonoBehaviour
         myAnim = GetComponent<Animator>();
 
 
+        //COIN
         nilaiKoin = PlayerPrefs.GetInt("coin");
         textkoin.text = "= " + nilaiKoin.ToString();
         Debug.Log(nilaiKoin);
+
+        //item Peanuts
+        nilaiPeanuts = PlayerPrefs.GetInt("Peanuts");
+        TextPeanuts.text = "" + nilaiPeanuts.ToString();
+
+        //ITEM PERANGKAP
+        nilaiPerangkap = PlayerPrefs.GetInt("Perangkap");
+        TextPerangkap.text = "" + nilaiPerangkap.ToString();
+
+        //ITEM JAGUNG
+        nilaiJagung = PlayerPrefs.GetInt("Jagung");
+        TextJagung.text = "" + nilaiJagung.ToString();
 
 
         if (SceneManager.GetActiveScene().name == "Level 1")
