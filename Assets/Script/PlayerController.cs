@@ -1,8 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+<<<<<<< Updated upstream
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
+=======
+using UnityEngine;
+>>>>>>> Stashed changes
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private int MoveSpeed;
 
+<<<<<<< Updated upstream
     //COIN DAN ITEM
     public int nilaiKoin, nilaiPeanuts, nilaiPerangkap, nilaiJagung;
     public Text textkoin, TextPeanuts, TextPerangkap, TextJagung;
@@ -25,6 +30,8 @@ public class PlayerController : MonoBehaviour
         instance2 = this;
         instance3 = this;
     }
+=======
+>>>>>>> Stashed changes
 
 
 
@@ -36,36 +43,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         //Memanggil Animasi Gerak
         myAnim = GetComponent<Animator>();
-
-        //coin
-        nilaiKoin = PlayerPrefs.GetInt("coin");
-        textkoin.text = " " + nilaiKoin.ToString();
-
-        Debug.Log(nilaiKoin);
-
-        //item Peanuts
-        nilaiPeanuts = PlayerPrefs.GetInt("Peanuts");
-        TextPeanuts.text = "" + nilaiPeanuts.ToString();
-
-        //ITEM PERANGKAP
-        nilaiPerangkap = PlayerPrefs.GetInt("Perangkap");
-        TextPerangkap.text = "" + nilaiPerangkap.ToString();
-
-        //ITEM JAGUNG
-        nilaiJagung = PlayerPrefs.GetInt("Jagung");
-        TextJagung.text = "" + nilaiJagung.ToString();
-
-        //save scene
-        if (SceneManager.GetActiveScene().name == "Level 1")
-        {
-            Resetsave();
-        }
     }
 
-    public void Resetsave()
-    {
-        PlayerPrefs.DeleteAll();
-    }
     // Update is called once per frame
     void Update()
     {
