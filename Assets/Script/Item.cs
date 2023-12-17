@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+<<<<<<< Updated upstream
 public class coin : MonoBehaviour
+=======
+public class Item : MonoBehaviour
+>>>>>>> Stashed changes
 {
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
