@@ -3,11 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-<<<<<<< Updated upstream
-public class coin : MonoBehaviour
-=======
-public class Item : MonoBehaviour
->>>>>>> Stashed changes
+public class Coin : MonoBehaviour
 {
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,7 +25,7 @@ public class Item : MonoBehaviour
 
 
 
-        // item peanuts
+        //item peanuts
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("peanuts Diambil");
@@ -66,7 +62,7 @@ public class Item : MonoBehaviour
             PlayerController.instance3.nilaiJagung += 1;
             PlayerController.instance3.TextJagung.text = " " + PlayerController.instance3.nilaiJagung.ToString();
             PlayerPrefs.SetInt("Jagung", PlayerController.instance3.nilaiJagung);
-        }
+         }
     }
 }
 
