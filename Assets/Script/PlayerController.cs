@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator myAnim;
+   
 
     [SerializeField]
     private int MoveSpeed;
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
         instance1 = this;
         instance2 = this;
         instance3 = this;
+
     }
 
 
