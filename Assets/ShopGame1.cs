@@ -1,14 +1,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ItemShopOpener : MonoBehaviour
+public class ItemShop : MonoBehaviour
 {
-    [SerializeField] GameObject itemShop;
+    public string itemShopSceneName = "ItemShop";
 
-    public void OpenItemShop()
+    private bool isInItemShop = false;
+
+    private void Update()
     {
-        itemShop.SetActive(true);
+        if (isInItemShop && Input.GetKeyDown(KeyCode.I))
+        {
+            SceneManager.LoadScene(itemShopSceneName);
+        }
+    }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("ItemShop"))
+        {
+            isInItemShop = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("ItemShop"))
+        {
+            isInItemShop = false;
+        }
     }
 }
-
