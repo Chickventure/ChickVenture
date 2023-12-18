@@ -32,9 +32,6 @@ public class PlayerController : MonoBehaviour
     }
 
 
-
-
-
     // Start is called before the first frame update
     void Start()
     {   
@@ -61,7 +58,7 @@ public class PlayerController : MonoBehaviour
         nilaiJagung = PlayerPrefs.GetInt("Jagung");
         TextJagung.text = "" + nilaiJagung.ToString();
 
-
+        //save scene and reset
         if (SceneManager.GetActiveScene().name == "Level 1")
         {
             Resetsave();
