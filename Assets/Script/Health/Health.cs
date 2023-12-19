@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -14,6 +15,18 @@ public class Health : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "Level 1")
+        {
+            Resetsave();
+        }
+    }
+
+        public void Resetsave()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     public void TakeDamage(float damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, StarttingHealht);
